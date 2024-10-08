@@ -1,0 +1,20 @@
+{
+	"name": "version-alias",
+	"version": "1.0.0",
+	"description": "Automatically update version aliases for GitHub Actions repositories.",
+	"main": "index.js",
+	"author": "Phil Faciana <phil@renderdev.com> (https://renderdev.com/)",
+	"license": "MIT",
+	"scripts": {
+		"test": "vitest"
+	},
+	"dependencies": {
+		"@actions/core": "~1.10",
+		"@actions/exec": "^1.1",
+		"@actions/github": "~6.0",
+		"semver": "^7.6"
+	},
+	"devDependencies": {
+		"vitest": "^2.0"
+	}
+}
